@@ -1,0 +1,77 @@
+{
+    "courses": [
+      {
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming using Python.",
+        "price": 49.99,
+        "level": "Beginner",
+        "url": "https://example.com/programming",
+        "image": "https://images.unsplash.com/photo-1517430816045-df4b7de01f80"
+      },
+      {
+        "title": "Advanced Web Development",
+        "description": "Deep dive into modern web development tools.",
+        "price": 99.99,
+        "level": "Medium",
+        "url": "https://example.com/web-development",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      },
+      {
+        "title": "Data Science with Python",
+        "description": "Master data analysis and visualization techniques.",
+        "price": 79.99,
+        "level": "Medium",
+        "url": "https://example.com/data-science",
+        "image": "https://images.unsplash.com/photo-1553484771-0f7c9c918c23"
+      },
+      {
+        "title": "Machine Learning for Beginners",
+        "description": "A comprehensive introduction to machine learning concepts.",
+        "price": 59.99,
+        "level": "Beginner",
+        "url": "https://example.com/machine-learning",
+        "image": "https://images.unsplash.com/photo-1553524790-41529bb94c2e"
+      },
+      {
+        "title": "AI and Deep Learning",
+        "description": "Learn about neural networks and deep learning.",
+        "price": 129.99,
+        "level": "Hard",
+        "url": "https://example.com/ai-deep-learning",
+        "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
+      },
+      {
+        "title": "Introduction to Blockchain Technology",
+        "description": "Explore the fundamentals of blockchain and cryptocurrencies.",
+        "price": 89.99,
+        "level": "Medium",
+        "url": "https://example.com/blockchain",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+      },
+      {
+        "title": "Cybersecurity Basics",
+        "description": "Understand the essentials of protecting systems and data.",
+        "price": 69.99,
+        "level": "Beginner",
+        "url": "https://example.com/cybersecurity",
+        "image": "https://images.unsplash.com/photo-1496330662680-b0e88c4da6ab"
+      },
+      {
+        "title": "Introduction to Cloud Computing",
+        "description": "Learn about cloud services and deployment strategies.",
+        "price": 79.99,
+        "level": "Medium",
+        "url": "https://example.com/cloud-computing",
+        "image": "https://images.unsplash.com/photo-1531476097553-1e29d9c580f1"
+      },
+      {
+        "title": "Advanced Algorithms",
+        "description": "Study complex algorithms and their applications.",
+        "price": 119.99,
+        "level": "Hard",
+        "url": "https://example.com/advanced-algorithms",
+        "image": "https://images.unsplash.com/photo-1492580821831-2d7e22572b78"
+      }
+    ]
+  }
+  

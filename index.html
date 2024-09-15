@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XD Media</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <style>
+        .background {
+            background-image: url('https://plus.unsplash.com/premium_photo-1661456342021-faa4a2ac84f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+        }
+    </style>
+</head>
+<body class="background text-white">
+    <nav class="bg-gray-900 p-4 text-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-lg font-bold hover:text-blue-400 transition duration-300">XD Media</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-blue-400 transition duration-300">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-6 bg-gray-800 bg-opacity-75 rounded-lg mt-8 shadow-lg">
+        <h2 class="text-2xl font-bold mb-6">Available Courses</h2>
+
+        <!-- Sort Dropdown -->
+        <div class="mb-6">
+            <select title="sort" id="sortOption" onchange="sortCourses()" class="border border-gray-600 p-3 rounded-lg w-full bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-300">
+                <option value="default">Sort by</option>
+                <option value="priceLowToHigh">Price (Low to High)</option>
+                <option value="priceHighToLow">Price (High to Low)</option>
+                <option value="levelBeginner">Level (Beginner)</option>
+                <option value="levelMedium">Level (Medium)</option>
+                <option value="levelHard">Level (Hard)</option>
+            </select>
+        </div>
+
+        <!-- Course Container -->
+        <div id="courses-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+
+        <!-- Pagination -->
+        <div id="pagination" class="flex justify-center mt-8"></div>
+    </div>
+
+</body>
+</html>
